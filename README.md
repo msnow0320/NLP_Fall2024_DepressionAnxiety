@@ -11,6 +11,7 @@ GR5067
 - What did you like least and best about the project?
 - Conclusion
 
+Using this kaggle dataset: https://www.kaggle.com/datasets/suchintikasarkar/sentiment-analysis-for-mental-health
 
 1. Data Pre processing 
 2. Feature Extration 
