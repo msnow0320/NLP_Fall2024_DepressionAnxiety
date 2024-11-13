@@ -19,6 +19,6 @@ Using this kaggle dataset: https://www.kaggle.com/datasets/suchintikasarkar/sent
 4. Evaluation Metrics 
 5. Interpretation
 
-   Presentation: By December 2
-
-   Paper by: December 9 or 16
+Model: By November 19
+Presentation: By December 2
+Paper by: December 9 or 16
