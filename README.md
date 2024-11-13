@@ -19,4 +19,5 @@ GR5067
 5. Interpretation
 
    Presentation: By December 2
+
    Paper by: December 9 or 16
