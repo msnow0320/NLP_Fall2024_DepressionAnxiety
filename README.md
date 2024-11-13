@@ -20,5 +20,7 @@ Using this kaggle dataset: https://www.kaggle.com/datasets/suchintikasarkar/sent
 5. Interpretation
 
 Model: By November 19
+
 Presentation: By December 2
+
 Paper by: December 9 or 16
