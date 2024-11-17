@@ -10,7 +10,7 @@ Created on Thu Nov 14 16:51:26 2024
 Data Pre-processing
 
 """
-import kagglehub
+#import kagglehub
 import re
 import pandas as pd
 import os
@@ -20,12 +20,12 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import wordnet
 
 # Download the latest version of the dataset
-path = kagglehub.dataset_download("suchintikasarkar/sentiment-analysis-for-mental-health")
+#path = kagglehub.dataset_download("suchintikasarkar/sentiment-analysis-for-mental-health")
 
-print("Path to dataset files:", path)
-path = '/Users/yu/.cache/kagglehub/datasets/suchintikasarkar/sentiment-analysis-for-mental-health/versions/1'
-dataset_path = os.path.join(path, 'Combined Data.csv')
-dataset = pd.read_csv(dataset_path)
+#print("Path to dataset files:", path)
+#path = 'C:/Users/meisn\OneDrive/Documents/GitHub/NLP_Fall2024_DepressionAnxiety/Data/Raw Data'
+#dataset_path = os.path.join(path, 'Data.csv')
+dataset = pd.read_csv('data.csv')
 dataset['statement'] = dataset['statement'].fillna('').astype(str)
 
 lemmatizer = WordNetLemmatizer()
